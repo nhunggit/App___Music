@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="639dp"
+        android:src="@drawable/mymusic"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="354dp"
+        android:layout_marginRight="354dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/lap"
+        android:layout_marginLeft="15dp"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="354dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/chuyenbai" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="267dp"
+        android:layout_marginRight="267dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/previous" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/next" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/stop" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="213dp"
+        android:layout_marginRight="213dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/playing" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="169dp" />
+
+    <TextView
+        android:id="@+id/txt_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ten bai hat"
+        android:textColor="@android:color/black"
+        android:textSize="24dp" />
+</RelativeLayout>
